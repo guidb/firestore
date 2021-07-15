@@ -1,0 +1,29 @@
+{
+  "name": "@guidb/firestore",
+  "version": "0.0.0",
+  "description": "firebase store library :V no ads no track bro",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guidb/firestore.git"
+  },
+  "keywords": [
+    "firebase",
+    "firestore",
+    "database",
+    "google",
+    "google-cloud"
+  ],
+  "author": "@azkadev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guidb/firestore/issues"
+  },
+  "homepage": "https://github.com/guidb/firestore#readme",
+  "dependencies": {
+    "firebase-admin": "^9.10.0"
+  }
+}
