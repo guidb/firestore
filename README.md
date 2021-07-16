@@ -28,6 +28,31 @@
 
 ## ❄Docs 
 
+0. **constructor**
+		```new firestore(data, encrypt)```
+		example
+
+    type data = json / string
+    type encrpy = boolean
+
+    if encrypt fill data base 64 not "./firebase.json"
+
+    if no encrypt fill data "./firebase.json"
+    get base 64 data here https://jpillora.com/base64-encoder/ 
+
+  example
+
+```js
+//--! no encrpyt !--\\
+var firestore = require("@guidb/firestore")
+var db = new firestore.firestore("./firebase.json")
+
+//--! data encrpyt !--\\
+var firestore = require("@guidb/firestore")
+var db = new firestore.firestore("data:application/json;base64,ewogICJ0eXBl.*", true)
+
+```
+
 1. **Get All** 
 		```getAll(name)```
 		example
